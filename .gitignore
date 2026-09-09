@@ -1,0 +1,29 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+/project/build/
+/project/app/build/
+/project/.kotlin/
+/project/app/schemas/
+
+# Local config (SDK paths, keys)
+local.properties
+/project/local.properties
+/project/gradle/local.properties
+
+# Build artifacts / dumps
+/captures
+.externalNativeBuild
+.cxx
+*.hprof
+
+# Old build
+FitTrack.apk
+
+# Internal build notes, not published
+project/docs/build-prompt.md
